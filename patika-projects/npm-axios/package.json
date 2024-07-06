@@ -1,0 +1,15 @@
+{
+  "name": "npm-axios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "nakres",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.5"
+  }
+}

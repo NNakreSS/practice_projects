@@ -1,0 +1,28 @@
+{
+  "employees": [
+    {
+      "name": "Mayk Tyson",
+      "department": "God",
+      "salary": 999999999999999,
+      "id": 2
+    },
+    {
+      "name": "Serkan",
+      "salary": 999999,
+      "department": "Bilişim",
+      "id": 3
+    },
+    {
+      "name": "Burak",
+      "salary": 50,
+      "department": "Bilişim",
+      "id": 4
+    },
+    {
+      "name": "Ayça35",
+      "salary": 1,
+      "department": "Halkla İlişkiler",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "emoji-search",
+  "version": "0.1.0",
+  "license": "MIT",
+  "homepage": "http://ahfarmer.github.io/emoji-search",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.2.0",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/user-event": "^14.5.2",
+    "gh-pages": "^2.0.1",
+    "prettier": "^1.17.1",
+    "react-scripts": "^5.0.1"
+  },
+  "dependencies": {
+    "@testing-library/dom": "^9.3.4",
+    "clipboard": "^2.0.4",
+    "github-fork-ribbon-css": "^0.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "testing-library": "^0.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts --openssl-legacy-provider test --env=jsdom",
+    "eject": "react-scripts --openssl-legacy-provider eject",
+    "deploy": "gh-pages -d build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

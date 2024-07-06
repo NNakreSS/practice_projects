@@ -1,0 +1,8 @@
+.container {
+  width: 90%;
+  height: 70vh;
+  margin: auto;
+  color: black;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
