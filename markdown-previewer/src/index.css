@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  :root {
+    @apply bg-neutral-500;
+  }
+
+  .marked-content {
+    @apply prose !important;
+  }
+}
